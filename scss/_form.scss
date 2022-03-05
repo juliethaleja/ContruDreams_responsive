@@ -1,15 +1,16 @@
+$fontsize: 60px;
 .form {
   line-height: 2rem;
   padding-left: 20%;
   label {
     color: #2b9f2b;
-    font-size: 20px;
+    font-size: ($fontsize)-40;
   }
   .form__input {
     font-family: "Open Sans", sans-serif;
-    font-size: 15px;
+    font-size: ($fontsize/2)-15;
     width: 80%;
-    padding: 5px;
+    padding: ($fontsize/3)-15;
     box-sizing: border-box;
     background: none;
     outline: none;
@@ -22,7 +23,7 @@
   }
   .form__select {
     font-family: "Open Sans", sans-serif;
-    font-size: 15px;
+    font-size: ($fontsize/2)-15;
     padding: 5px 29%;
     background: none;
     border: 1px solid #2b9f2b;
@@ -30,7 +31,7 @@
   .form__btn {
     padding: 5px 20px;
     font-family: "Open Sans", sans-serif;
-    font-size: 20px;
+    font-size: ($fontsize/2)-15;
     background: none;
     border: 1px solid #2b9f2b;
     color: #2b9f2b;
