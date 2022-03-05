@@ -17,7 +17,12 @@
   z-index: 1;
 }
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  animation-duration: 2s;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.3)
+    ),
     url("../img/Fondoinicio.jpg");
   max-width: 100%;
   height: auto;
@@ -27,14 +32,18 @@
   position: relative;
   padding: 50vh;
 }
-
 .banner__h1 {
+  animation-duration: 2s;
+  animation-name: aparecer;
   font-size: 60px;
 }
 .baner__h5 {
-  font-size: 15px;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  font-size: 20px;
   color: #2b9f2b;
 }
+
 .item__img {
   width: 150px;
 }
@@ -98,6 +107,7 @@
   color: #2b9f2b;
 }
 .nav-item :hover {
+  transition: all 0.5s ease-in-out;
   color: white;
 }
 .footer {
@@ -112,4 +122,12 @@
   font-size: 3rem;
   color: white;
   padding: 3rem;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
