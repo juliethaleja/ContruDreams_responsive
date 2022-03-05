@@ -1,0 +1,45 @@
+.form {
+  line-height: 2rem;
+  padding-left: 20%;
+  label {
+    color: #2b9f2b;
+    font-size: 20px;
+  }
+  .form__input {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    width: 80%;
+    padding: 5px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #2b9f2b;
+  }
+  .form__mensaje {
+    border: 1px solid #2b9f2b;
+  }
+  .form__select {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    padding: 5px 29%;
+    background: none;
+    border: 1px solid #2b9f2b;
+  }
+  .form__btn {
+    padding: 5px 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    background: none;
+    border: 1px solid #2b9f2b;
+    color: #2b9f2b;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .form__btn:hover {
+    background: #383c3d;
+    color: #2b9f2b;
+    border: none;
+  }
+}

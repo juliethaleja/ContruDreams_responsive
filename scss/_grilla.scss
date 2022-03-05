@@ -1,0 +1,61 @@
+.banner {
+  animation-duration: 2s;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../img/Fondoinicio.jpg");
+  max-width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 50vh;
+}
+.banner__h1 {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  font-size: 60px;
+}
+.baner__h5 {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  font-size: 20px;
+  color: #2b9f2b;
+}
+.item__img {
+  width: 150px;
+}
+.informacion__h4 {
+  color: #2b9f2b;
+  font-size: 25px;
+}
+.informacion__img {
+  width: 500px;
+  height: 20%;
+}
+
+.logo {
+  width: 20%;
+}
+.nav__a {
+  color: #2b9f2b;
+}
+.nav-item :hover {
+  transition: all 0.5s ease-in-out;
+  color: white;
+}
+.title {
+  font-size: 40px;
+  color: #2b9f2b;
+  margin-top: 25vh;
+}
+.header {
+  padding: 0.5rem;
+  background: #383c3d;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
