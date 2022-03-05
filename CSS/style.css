@@ -19,7 +19,8 @@
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../img/Fondoinicio.jpg");
-  height: 30%;
+  max-width: 100%;
+  height: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,6 +96,9 @@
 }
 .nav__a {
   color: #2b9f2b;
+}
+.nav-item :hover {
+  color: white;
 }
 .footer {
   background: #383c3d;
