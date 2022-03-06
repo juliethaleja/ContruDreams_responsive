@@ -1,7 +1,7 @@
 {
   "name": "construdreams_sierra",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto sobre una empresa que se dedica a las contrucciones ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/juliethaleja/ContruDreams_responsive.git"
   },
-  "author": "",
+  "author": "Julieth Sierra",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/juliethaleja/ContruDreams_responsive/issues"
