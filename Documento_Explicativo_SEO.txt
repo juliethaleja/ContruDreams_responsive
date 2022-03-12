@@ -1,0 +1,33 @@
+INDEX
+
+En el archivo index.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Somos una empresa que se dedica en las contrucciones de casas, fincas , entre otros."
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "CONTRUDREAMS, CONTRUCCION, CONTRATOS,EXITOS,CASAS,FINCAS,CONDOMINIOS,DISEÑO,REQUERIMIENTOS,MANO DE OBRA"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+CASOS DE EXITO
+
+En el archivo casosExito.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Se presenta los contratos que se realizaron con la empresa en toda colombia"
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "CONTRUDREAMS, CONTRUCCION, CONTRATOS,EXITOS,CASAS,FINCAS,CONDOMINIOS,DISEÑO,REQUERIMIENTOS,MANO DE OBRA"
+Encabezado: para el encabezado del h1 utilicé el texto “Casos de Exíto”
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+CONTACTANOS
+
+En el archivo contactanos.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Se presenta una forma de comunicarse con la empresa, en caso de solicitar los servicios"
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "CONTRUDREAMS, CONTRUCCION, CONTRATOS,EXITOS,CASAS,FINCAS,CONDOMINIOS,DISEÑO,REQUERIMIENTOS,MANO DE OBRA"
+Encabezado: para el encabezado del h1 utilicé el texto “Contacto”
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+SERVICIOS
+
+En el archivo servicios.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Este es el sitio web de mi banda en el que encontrarás fechas, imágenes, videos, música y mucho más"
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "CONTRUDREAMS, CONTRUCCION, CONTRATOS,EXITOS,CASAS,FINCAS,CONDOMINIOS,DISEÑO,REQUERIMIENTOS,MANO DE OBRA"
+Encabezado: para el encabezado del h1 utilicé el texto “¿Que hacemos?”
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+SOBRE NOSOTROS
+
+En el archivo sobreNosotros.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Este es el sitio web de mi banda en el que encontrarás fechas, imágenes, videos, música y mucho más"
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "CONTRUDREAMS, CONTRUCCION, CONTRATOS,EXITOS,CASAS,FINCAS,CONDOMINIOS,DISEÑO,REQUERIMIENTOS,MANO DE OBRA"
+Encabezado: para el encabezado del h1 utilicé el texto “Sobre Nosotros”
