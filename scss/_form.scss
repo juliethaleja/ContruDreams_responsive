@@ -16,31 +16,31 @@ $fontsize: 60px;
     outline: none;
     resize: none;
     border: none;
-    border-bottom: 1px solid #2b9f2b;
+    border-bottom: 1px solid $green;
   }
   .form__mensaje {
-    border: 1px solid #2b9f2b;
+    border: 1px solid $green;
   }
   .form__select {
     font-family: "Open Sans", sans-serif;
     font-size: ($fontsize/2)-15;
     padding: 5px 29%;
     background: none;
-    border: 1px solid #2b9f2b;
+    border: 1px solid $green;
   }
   .form__btn {
     padding: 5px 20px;
     font-family: "Open Sans", sans-serif;
     font-size: ($fontsize/2)-15;
     background: none;
-    border: 1px solid #2b9f2b;
-    color: #2b9f2b;
+    border: 1px solid $green;
+    color: $green;
     cursor: pointer;
     transition: all 0.3s;
   }
   .form__btn:hover {
-    background: #383c3d;
-    color: #2b9f2b;
+    background: $black;
+    color: $green;
     border: none;
   }
 }
