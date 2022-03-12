@@ -58,7 +58,7 @@
           animation-duration: 2s;
   -webkit-animation-name: aparecer;
           animation-name: aparecer;
-  font-size: 60px;
+  font-size: 100px -40;
 }
 
 .baner__h5 {
@@ -120,13 +120,12 @@
 
 .form label {
   color: #2b9f2b;
-  font-size: 20px;
+  font-size: 50px -30;
 }
 
 .form .form__input {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
-  width: 80%;
   padding: 5px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
