@@ -1,0 +1,64 @@
+$size: 100px;
+$green: #2b9f2b;
+$black: #383c3d;
+.banner {
+  animation-duration: 2s;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../img/Fondoinicio.jpg");
+  max-width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 50vh;
+}
+.banner__h1 {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  font-size: $size -40;
+}
+.baner__h5 {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  font-size: $size/5;
+  color: $green;
+}
+.item__img {
+  width: 150px;
+}
+.informacion__h4 {
+  color: $green;
+  font-size: ($size/5)+5;
+}
+.informacion__img {
+  width: $size * 5;
+  height: 20%;
+}
+
+.logo {
+  width: 20%;
+}
+.nav__a {
+  color: $green;
+}
+.nav-item :hover {
+  transition: all 0.5s ease-in-out;
+  color: white;
+}
+.title {
+  font-size: ($size/2)-10;
+  color: $green;
+  margin-top: 25vh;
+}
+.header {
+  padding: 0.5rem;
+  background: $black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}

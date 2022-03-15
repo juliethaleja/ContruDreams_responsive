@@ -1,0 +1,14 @@
+$black: #383c3d;
+$green: #2b9f2b;
+.footer {
+  background: $black;
+  padding: 1rem;
+  .footer__h3 {
+    color: $green;
+  }
+  .footer__li {
+    font-size: 3rem;
+    color: white;
+    padding: 3rem;
+  }
+}

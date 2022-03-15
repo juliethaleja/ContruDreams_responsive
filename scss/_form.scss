@@ -1,0 +1,48 @@
+$fontsize: 60px;
+.form {
+  line-height: 2rem;
+  padding-left: 20%;
+  label {
+    color: #2b9f2b;
+    font-size: ($fontsize)-40;
+  }
+  .form__extend{
+    font-family: "Open Sans", sans-serif;
+    background: none;
+
+  }
+  .form__input {
+    @extend .form__extend;
+    font-size: ($fontsize/2)-15;
+    padding: ($fontsize/3)-15;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid $green;
+  }
+  .form__mensaje {
+    @extend .form__extend;
+    border: 1px solid $green;
+  }
+  .form__select {
+    @extend .form__extend;
+    font-size: ($fontsize/2)-15;
+    padding: 5px 29%;
+    border: 1px solid $green;
+  }
+  .form__btn {
+    @extend .form__extend;
+    padding: 5px 20px;
+    font-size: ($fontsize/2)-15;
+    border: 1px solid $green;
+    color: $green;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .form__btn:hover {
+    background: $black;
+    color: $green;
+    border: none;
+  }
+}
