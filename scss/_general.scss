@@ -1,6 +1,10 @@
+@mixin sizes($margin, $padding) {
+  margin: $margin;
+  padding: $padding;
+}
+
 * {
-  margin: 0;
-  padding: 0;
+  @include sizes(0, 0);
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
