@@ -1,15 +1,16 @@
+/* ASIGNACION DE VARIABLES */
 $fontsize: 60px;
+/*ESTILOS DE FORMULARIO*/
 .form {
   line-height: 2rem;
-  padding-left: 20%;
+  justify-content: center;
   label {
     color: #2b9f2b;
     font-size: ($fontsize)-40;
   }
-  .form__extend{
+  .form__extend {
     font-family: "Open Sans", sans-serif;
     background: none;
-
   }
   .form__input {
     @extend .form__extend;
