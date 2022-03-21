@@ -1,3 +1,4 @@
+/* ESTILOS PARA TODO EL HTML */
 * {
   margin: 0;
   padding: 0;
@@ -24,9 +25,10 @@
   }
 }
 
+/* ASIGNACION DE VARIABLES */
+/* ESTILO DE FOOTER */
 .footer {
   background: #383c3d;
-  padding: 1rem;
 }
 
 .footer .footer__h3 {
@@ -36,9 +38,14 @@
 .footer .footer__li {
   font-size: 3rem;
   color: white;
-  padding: 3rem;
 }
 
+.footer p {
+  margin-bottom: 0%;
+}
+
+/* ASIGNACION DE VARIABLES */
+/* ESTILOS PERZONALIZADOS EN LOS DIFERENTES HTML  */
 .banner {
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
@@ -113,9 +120,13 @@
   z-index: 1;
 }
 
+/* ASIGNACION DE VARIABLES */
+/*ESTILOS DE FORMULARIO*/
 .form {
   line-height: 2rem;
-  padding-left: 20%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .form label {
@@ -123,14 +134,16 @@
   font-size: 20px;
 }
 
-.form .form__input {
+.form .form__extend, .form .form__input, .form .form__mensaje, .form .form__select, .form .form__btn {
   font-family: "Open Sans", sans-serif;
+  background: none;
+}
+
+.form .form__input {
   font-size: 15px;
-  width: 80%;
   padding: 5px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: none;
   outline: none;
   resize: none;
   border: none;
@@ -142,18 +155,14 @@
 }
 
 .form .form__select {
-  font-family: "Open Sans", sans-serif;
   font-size: 15px;
   padding: 5px 29%;
-  background: none;
   border: 1px solid #2b9f2b;
 }
 
 .form .form__btn {
   padding: 5px 20px;
-  font-family: "Open Sans", sans-serif;
   font-size: 15px;
-  background: none;
   border: 1px solid #2b9f2b;
   color: #2b9f2b;
   cursor: pointer;
@@ -165,5 +174,36 @@
   background: #383c3d;
   color: #2b9f2b;
   border: none;
+}
+
+.animatex {
+  -webkit-animation-name: movimiento;
+          animation-name: movimiento;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+@-webkit-keyframes movimiento {
+  0% {
+    -webkit-transform: translateX(-1500px);
+            transform: translateX(-1500px);
+  }
+  25%,
+  50% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+}
+
+@keyframes movimiento {
+  0% {
+    -webkit-transform: translateX(-1500px);
+            transform: translateX(-1500px);
+  }
+  25%,
+  50% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
 }
 /*# sourceMappingURL=style.css.map */

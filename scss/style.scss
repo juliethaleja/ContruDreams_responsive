@@ -2,3 +2,18 @@
 @import "footer";
 @import "grilla";
 @import "form";
+
+.animatex {
+  animation-name: movimiento;
+  animation-duration: 2s;
+}
+
+@keyframes movimiento {
+  0% {
+    transform: translateX(-1500px);
+  }
+  25%,
+  50% {
+    transform: translateX(100px);
+  }
+}
